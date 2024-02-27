@@ -1,0 +1,21 @@
+{
+  "name": "nlb-alb-fargate",
+  "version": "1.0.0",
+  "description": "Fargate service with NLB ingress to an ALB",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "aws-cdk": "2.130.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.130.0",
+    "constructs": "^10.0.0"
+  }
+}
